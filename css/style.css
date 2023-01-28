@@ -1,0 +1,37 @@
+.colorFondo{
+    background-color: #0a192f;
+}
+
+.colorFondoNav{
+    background-color: #0a192fb0;
+    backdrop-filter: blur(10px);
+}
+
+.bg-green{
+    color: #64ffda;
+}
+
+.fontColor1{
+    color: #ccd6f6;
+}
+
+.fontFamily1{
+    font-family: monospace;
+}
+
+.fontFamily2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.titleContainer{
+
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 16vh;
+
+}
