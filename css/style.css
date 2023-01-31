@@ -1,3 +1,9 @@
+html{
+
+    scroll-behavior: smooth;
+
+}
+
 .colorFondo{
     background-color: #0a192f;
 }
@@ -42,10 +48,45 @@
 
 .aboutMeContainer{
 
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-top: 60vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 30vh;
+    padding-top: 30vh;
 }
+
+
+.imgPhoto{
+
+    
+
+    filter: sepia(100%) brightness(86%) hue-rotate(132deg) saturate(124%);
+    -webkit-filter: sepia(100%) brightness(86%) hue-rotate(132deg) saturate(124%);
+    -moz-filter: sepia(100%) brightness(86%) hue-rotate(132deg) saturate(124%);
+
+    transition: filter .5s;
+
+}
+
+.imgPhoto:hover{
+
+    filter: none;
+    transition: filter .5s;
+
+}
+
+.imgPhotoContainer{
+
+    box-shadow: #0a192f 20px 20px 0px -2px, #64ffda 20px 20px;
+    transition: box-shadow .5s;
+}
+
+.imgPhotoContainer:hover{
+
+    box-shadow: #0a192f 14px 14px 0px -2px, #64ffda 14px 14px;
+    transition: box-shadow .5s;
+}
+
+
 
 .buttonGreen{
 
