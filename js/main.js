@@ -2,13 +2,12 @@ var loader = document.getElementById("preloader");
 var opacity = 0;
 var intervalID = 0;
 
-
+/* Funcion para desvanecer el load screen */
 function fadeOut(){
-
     intervalID = setInterval(hide, 20);
-
 }
 
+/* Funcion auxiliar de la funcion fadeOut() */ 
 function hide(){
 
     opacity = Number(window.getComputedStyle(loader).getPropertyValue("opacity"));
@@ -26,6 +25,7 @@ function hide(){
 }
 
 
+/* Se encarga de llamar a la funcion fadeOut() luego de 2 segundos de haber cargado la pagina */
 setTimeout( function(){
     fadeOut();
-}, 2000 )
+}, 2 )

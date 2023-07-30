@@ -59,7 +59,7 @@ body{
 
 }
 
-.aboutMeContainer{
+.newContainer{
 
     margin-left: 10vw;
     margin-right: 10vw;
@@ -68,6 +68,8 @@ body{
 }
 
 
+
+/* Change img color on hover */
 .imgPhoto{
 
     
@@ -169,7 +171,7 @@ body::-webkit-scrollbar {
 
 
 
-
+/* Google Icons */
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -238,7 +240,7 @@ body::-webkit-scrollbar {
 
 
 
-/* SOLAR SYSTEM */
+/* Load screen logo */
 
 
   
@@ -299,7 +301,7 @@ body::-webkit-scrollbar {
     background-color: transparent;
   }
 
-  /* KEYFRAMES */
+  /* KEYFRAMES for Logo*/
 
 @keyframes spin {
     from {
@@ -365,3 +367,22 @@ body::-webkit-scrollbar {
       transform: scale(.75);
     }
   }
+
+
+.floatDiv{
+
+    text-align: right;
+    
+}
+
+.bg-blue{
+    background-color: #192c4d;
+}
+
+.newContainer2{
+
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 25vh;
+    padding-top: 30vh;
+}
