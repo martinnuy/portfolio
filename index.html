@@ -7,13 +7,20 @@
     <title>Martin Nuñez</title>
     <link rel="shortcut icon" href="img/icon.ico" />
 
+    <!--Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!--Css local-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Libreria de animaciones al scrollear-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
@@ -41,15 +48,15 @@
     
     
     <!--Navbar-->
-    <header class="mb-5 fixed-top shadow-lg">
+    <header class="mb-5 fixed-top shadow-lg" data-aos="fade-down">
 
         <nav class="navbar navbar-expand-lg navbar-light colorFondoNav mx-5">
             <a class="navbar-brand pt-3" href="index.html">
 
-              <svg width="123" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0.8 0.0 62.4 64.0" zoomAndPan="magnify" style="fill: rgb(0, 0, 0);" original_string_length="1407">
+              <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0.8 0.0 62.4 64.0" zoomAndPan="magnify" style="fill: rgb(0, 0, 0);" original_string_length="1407">
                 <defs>
                  <linearGradient xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" id="__id139_sxoet6vev8" xlink:actuate="onLoad" xlink:show="other" xlink:type="simple">
-                  <stop offset=".18" style="stop-color: rgb(17, 41, 77);"/>
+                  <stop offset=".18" style="stop-color: rgb(61, 136, 156);"/>
                   <stop offset="1" style="stop-color: rgb(94, 238, 204);"/>
                  </linearGradient>
                  <linearGradient xmlns:xlink="http://www.w3.org/1999/xlink" id="__id140_sxoet6vev8" x1="42.023" x2="44.133" xlink:actuate="onLoad" xlink:href="#__id139_sxoet6vev8" xlink:show="other" xlink:type="simple" y1="35.232" y2="33.122"/>
@@ -71,8 +78,8 @@
                 <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#aboutMe"> <p class="m-0 d-inline bg-green navNumbersGreen">01.</p> Acerca de mí</a>
                 <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#skills"> <p class="m-0 d-inline bg-green navNumbersGreen">02.</p> Conocimientos</a>
                 <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#training"> <p class="m-0 d-inline bg-green navNumbersGreen">03.</p> Formación</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#"> <p class="m-0 d-inline bg-green navNumbersGreen">04.</p> Contacto</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#"> <p class="m-0 d-inline bg-green navNumbersGreen">05.</p> CV</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#contact"> <p class="m-0 d-inline bg-green navNumbersGreen">04.</p> Contacto</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="./documents/CV.pdf" target="_blank"> <p class="m-0 d-inline bg-green navNumbersGreen">05.</p> CV</a>
               </div>
             </div>
           </nav>
@@ -81,11 +88,48 @@
 
 
 
+
+
+    <!--Divs Flotantes Laterales-->
+    <div class="divFlotante row">
+
+      <div class="col-md-6 m-0">
+
+        <div class="row position-absolute bottom-0 mx-4 px-4" data-aos="fade" data-aos-duration="3000">
+          
+          
+          <div class="mx-3 my-2"><a href="https://github.com/msn1314" target="_blank"><span class="material-symbols-outlined fontColor1 navElement pe-auto">code</span></a></div>
+          <div class="mx-3 my-2"><a href="https://www.linkedin.com/in/msn1314/" target="_blank"><span class="material-symbols-outlined fontColor1 navElement pe-auto">person</span></a></div>
+          <div class="mx-3 my-2"><a href="./documents/CV.pdf" target="_blank"><span class="material-symbols-outlined fontColor1 navElement pe-auto">contact_page</span></a></div>
+
+          <div class="verticalLine"></div>
+        </div>
+        
+      </div>
+      
+
+      <div class="col-md-6 m-0">
+
+        
+        <div class="float-end row" data-aos="fade" data-aos-duration="3000">
+          <a href="mailto:martinsebastian1314@hotmail.com" target="_blank" class="colorTexto float-end verticalText fontColor1 fontFamily1 navElement pe-auto"><p class="colorTexto float-end verticalText fontColor1 fontFamily1 navElement">martinsebastian1314@hotmail.com</p></a>
+          <div class="verticalLine"></div>
+        </div>
+      
+      </div>
+
+    </div>
+
+
+
+
+
+
     <!--Main Container-->
     <div class="container mt-5 pt-5">
 
 
-        <div class="container titleContainer">
+        <div class="container titleContainer" data-aos="fade">
             <h1 class="bg-green fontFamily1 h5">Hola, mi nombre es</h1>
             <h2 class="display-1 fontColor1 fontFamily2">Martin Nuñez.</h2>
 
@@ -96,11 +140,9 @@
             <a class="buttonGreen p-3" href="#aboutMe">Conocer mas!</a>
 
         </div>
-        
 
 
-
-        <div class="row newContainer" id="aboutMe">
+        <div class="row newContainer my-0" id="aboutMe" data-aos="fade">
 
           <div class="mb-4">
             <h4 class="bg-green fontFamily1 d-inline-block">01.</h4>
@@ -111,8 +153,8 @@
           <div class="col-md-6">
 
 
-              <p class="colorTexto">Soy un desarrollador front-end con una fuerte pasión por la creación de sitios web 
-                atractivos y fáciles de usar. Durante mis estudios, adquirí habilidades en el uso de <span class="bg-green">HTML, CSS y JavaScript</span> 
+              <p class="colorTexto">Soy un desarrollador front-end con un fuerte interes por la creación de sitios web. Durante mis estudios, 
+                adquirí habilidades en el uso de <span class="bg-green">HTML, CSS y JavaScript</span> 
                 y tengo experiencia práctica en el uso de frameworks como <span class="bg-green">Bootstrap.</span> 
               </p>  
               
@@ -141,8 +183,9 @@
     
         </div>
 
-
-        <div class="row newContainer" id="skills">
+        
+        <!--Conocimientos-->
+        <div class="row newContainer" id="skills" data-aos="fade">
 
           <div class="mb-4">
             <h4 class="bg-green fontFamily1 d-inline-block">02.</h4>
@@ -185,8 +228,8 @@
         </div>
 
 
-
-        <div class="newContainer2" id="training">
+        <!--Formacion-->
+        <div class="newContainer2" id="training" data-aos="fade">
 
           <div class="mb-4">
             <h4 class="bg-green fontFamily1 d-inline-block">03.</h4>
@@ -196,7 +239,7 @@
 
 
           <!--Certificado Jap-->
-          <div class="container d-inline-block mb-4 pb-4 position-relative">
+          <div class="container d-inline-block mb-4 pb-4 position-relative" data-aos="fade-left">
 
             
               <div class="formacionContainer position-absolute d-inline-block">
@@ -225,7 +268,7 @@
           <br><br><br>
 
           <!--Certificado 2-->
-          <div class="container d-inline-block my-4 py-4 position-relative">
+          <div class="container d-inline-block my-4 py-4 position-relative" data-aos="fade-right">
 
             
               <div class="formacionContainer position-absolute d-inline-block">
@@ -261,7 +304,7 @@
 
 
           <!--Certificado 3-->
-          <div class="container d-inline-block my-4 py-4 position-relative">
+          <div class="container d-inline-block my-4 py-4 position-relative" data-aos="fade-left">
 
   
             <div class="formacionContainer position-absolute d-inline-block">
@@ -290,6 +333,25 @@
 
         </div>
 
+        
+
+        <!--Contacto-->
+        <div class="newContainer2 text-center" id="contact" data-aos="fade-up">
+
+          <a href="mailto:martinsebastian1314@hotmail.com" target="_blank"><span class="material-symbols-outlined bg-green">email</span></a>
+          <h2 class="fontColor1 fontFamily2">Ponerse en contacto</h2>
+          <p class="colorTexto">
+
+            Actualmente me encuentro en busca de nuevas oportunidades, mi bandeja de entrada siempre está abierta
+            a cualquier propuesta o proyecto. ¡No dude en enviarme un correo!
+
+          </p>
+          <br>
+          <a class="buttonGreen p-3" href="mailto:martinsebastian1314@hotmail.com">Enviar Mensaje</a>
+
+
+        </div>
+
 
 
 
@@ -303,12 +365,21 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-
+    <!--Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
     
+    <!--Js local-->
+    <script src="js/main.js"></script>
+
+    <!--Libreria de animaciones al scrollear-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2500,
+      });
+    </script>
 
 </body>
 

@@ -33,6 +33,31 @@ body{
 
 }
 
+.divFlotante{
+
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1040;
+  pointer-events: none;
+}
+
+.verticalText{
+  writing-mode: vertical-lr;
+}
+
+.verticalLine{
+
+    border-right: 2px solid #ccd6f6;
+    height: 100px;
+    width: 39px;
+    border-radius: 5%;
+  
+}
+
+
 
 .bg-green{
     color: #64ffda;
@@ -64,6 +89,7 @@ body{
     margin-left: 7vw;
     margin-right: 7vw;
     margin-top: 18vh;
+    margin-bottom: 35vh;
 
 }
 
@@ -413,6 +439,10 @@ body::-webkit-scrollbar {
   }
 
   .navNumbersGreen {
+    visibility: hidden;
+  }
+
+  .divFlotante{
     visibility: hidden;
   }
 
