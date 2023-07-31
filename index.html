@@ -15,6 +15,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
 
 </head>
 <body class="colorFondo">
@@ -58,11 +60,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ms-auto">
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#aboutMe"> <p class="m-0 d-inline bg-green">01.</p> Acerca de mí</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#skills"> <p class="m-0 d-inline bg-green">02.</p> Conocimientos</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#training"> <p class="m-0 d-inline bg-green">03.</p> Formación</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#"> <p class="m-0 d-inline bg-green">04.</p> Contacto</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#"> <p class="m-0 d-inline bg-green">05.</p> CV</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#aboutMe"> <p class="m-0 d-inline bg-green navNumbersGreen">01.</p> Acerca de mí</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#skills"> <p class="m-0 d-inline bg-green navNumbersGreen">02.</p> Conocimientos</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#training"> <p class="m-0 d-inline bg-green navNumbersGreen">03.</p> Formación</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#"> <p class="m-0 d-inline bg-green navNumbersGreen">04.</p> Contacto</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#"> <p class="m-0 d-inline bg-green navNumbersGreen">05.</p> CV</a>
               </div>
             </div>
           </nav>
@@ -98,7 +100,7 @@
             <hr class="hr1 d-inline-block m-0 mb-2 mx-3">
           </div>
 
-          <div class="w-50 d-inline-block">
+          <div class="col-md-6">
 
 
               <p class="colorTexto">Soy un desarrollador front-end con una fuerte pasión por la creación de sitios web 
@@ -118,7 +120,7 @@
               </p>
           </div>
 
-          <div class="w-50 d-inline-block">
+          <div class="col-md-6">
 
             <div class="imgPhotoContainer rounded d-inline-block">
 
@@ -184,17 +186,19 @@
             <hr class="hr1 d-inline-block m-0 mb-2 mx-3">
           </div>
 
-          <div class="container">
+
+          <!--Certificado Jap-->
+          <div class="container d-inline-block mb-4 pb-4 position-relative">
 
             
-              <div class="position-absolute d-inline-block">
+              <div class="formacionContainer position-absolute d-inline-block">
                 <a href="documents/Jap.pdf" target="_blank">
-                  <img src="img/jap.jpg" alt="" class="img-fluid w-50 imgPhoto rounded position-relative">
+                  <img src="img/jap.jpg" alt="" class="img-fluid col-md-7 imgPhoto rounded position-relative">
                 </a>
               </div>
             
 
-            <div class="position-relative float-end floatDiv w-50 mt-5">
+            <div class="formacionContainer position-relative float-end floatDiv w-50 mt-5">
               <p class="fontFamily1 bg-green">Desarrollo Web</p>
               <h5 class="fontColor1 fontFamily2">Jóvenes a Programar</h5>
               
@@ -209,6 +213,72 @@
             </div>
 
           </div>
+
+          <br><br><br>
+
+          <!--Certificado 2-->
+          <div class="container d-inline-block my-4 py-4 position-relative">
+
+            
+              <div class="formacionContainer position-absolute d-inline-block">
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/F66ETSSMMUUL" target="_blank">
+                  <img src="img/ibm1.jpeg" alt="" class="img-fluid col-md-7 imgPhoto rounded position-relative float-end">
+                </a>
+              </div>
+            
+
+            <div class="formacionContainer position-relative w-50 mt-5">
+              <p class="fontFamily1 bg-green">IBM Full Stack Software Developer</p>
+              <h5 class="fontColor1 fontFamily2">IBM</h5>
+              
+              <div class="bg-blue shadow p-3 rounded">
+                <p class="fontColor1">Habilidades y herramientas prácticas más
+                  actualizadas que los desarrolladores full stack usan en
+                  sus roles diarios.
+
+                  Desarrollo de software con lenguajes y herramientas 
+                  front-end como <span class="bg-green">HTML, CSS, JavaScript, React y Bootstrap.</span>
+                </p>
+              </div>
+
+              <p class="fontFamily1 fontColor1">Introducción a Git y Github</p>
+              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/F66ETSSMMUUL" target="_blank"><span class="material-symbols-outlined fontColor1 navElement">link</span></a>
+
+            </div>
+
+          </div>
+
+          
+          <br><br><br><br><br>
+
+
+          <!--Certificado 3-->
+          <div class="container d-inline-block my-4 py-4 position-relative">
+
+  
+            <div class="formacionContainer position-absolute d-inline-block">
+              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3NY76ZKQAFG5" target="_blank">
+                <img src="img/ibm2.jpeg" alt="" class="img-fluid col-md-7 imgPhoto rounded position-relative">
+              </a>
+            </div>
+          
+
+          <div class="formacionContainer position-relative float-end floatDiv w-50 mt-5">
+            <p class="fontFamily1 bg-green">IBM DevOps and Software Engineering</p>
+            <h5 class="fontColor1 fontFamily2">IBM</h5>
+            
+            <div class="bg-blue shadow p-3 rounded">
+              <p class="fontColor1">Aprenda las habilidades y conocimientos prácticos más actualizados que los ingenieros de software 
+                y los profesionales de DevOps utilizan en sus roles diarios</p>
+            </div>
+
+            <p class="fontFamily1 fontColor1">Introducción a Docker, Kubernetes y OpenShift</p>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3NY76ZKQAFG5" target="_blank"><span class="material-symbols-outlined fontColor1 navElement">link</span></a>
+
+          </div>
+
+        </div>
+
 
         </div>
 
@@ -226,10 +296,12 @@
 
 
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    
 </body>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
 
 </html>

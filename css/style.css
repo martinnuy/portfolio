@@ -26,6 +26,14 @@ body{
     transition: color .7s;
 }
 
+
+.navbar-toggler-icon{
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28100, 255, 218, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+
 .bg-green{
     color: #64ffda;
 }
@@ -385,4 +393,27 @@ body::-webkit-scrollbar {
     margin-right: 7vw;
     margin-top: 25vh;
     padding-top: 30vh;
+}
+
+
+
+
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
+@media (max-width: 767px) {
+  .formacionContainer {
+    float: none !important; /* Deja de flotar */
+    width: 100% !important; /* Ocupa todo el ancho disponible */
+    position: static !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navNumbersGreen {
+    visibility: hidden;
+  }
+
 }
