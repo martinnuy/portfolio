@@ -50,7 +50,7 @@
     <!--Navbar-->
     <header class="mb-5 fixed-top shadow-lg" data-aos="fade-down">
 
-        <nav class="navbar navbar-expand-lg navbar-light colorFondoNav mx-5">
+        <nav class="navbar navbar-expand-lg navbar-light colorFondoNav px-5">
             <a class="navbar-brand pt-3" href="index.html">
 
               <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0.8 0.0 62.4 64.0" zoomAndPan="magnify" style="fill: rgb(0, 0, 0);" original_string_length="1407">
@@ -75,11 +75,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ms-auto">
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#aboutMe"> <p class="m-0 d-inline bg-green navNumbersGreen">01.</p> Acerca de mí</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#skills"> <p class="m-0 d-inline bg-green navNumbersGreen">02.</p> Conocimientos</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#training"> <p class="m-0 d-inline bg-green navNumbersGreen">03.</p> Formación</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="#contact"> <p class="m-0 d-inline bg-green navNumbersGreen">04.</p> Contacto</a>
-                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement" href="./documents/CV.pdf" target="_blank"> <p class="m-0 d-inline bg-green navNumbersGreen">05.</p> CV</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement js-scroll-trigger" href="#aboutMe"> <p class="m-0 d-inline bg-green navNumbersGreen">01.</p> Acerca de mí</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement js-scroll-trigger" href="#skills"> <p class="m-0 d-inline bg-green navNumbersGreen">02.</p> Conocimientos</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement js-scroll-trigger" href="#training"> <p class="m-0 d-inline bg-green navNumbersGreen">03.</p> Formación</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement js-scroll-trigger" href="#contact"> <p class="m-0 d-inline bg-green navNumbersGreen">04.</p> Contacto</a>
+                <a class="nav-item nav-link mx-3 fontColor1 fontFamily1 navElement js-scroll-trigger" href="./documents/CV.pdf" target="_blank"> <p class="m-0 d-inline bg-green navNumbersGreen">05.</p> CV</a>
               </div>
             </div>
           </nav>
@@ -142,7 +142,7 @@
         </div>
 
 
-        <div class="row newContainer my-0" id="aboutMe" data-aos="fade">
+        <div class="row newContainer aboutMe my-0" id="aboutMe" data-aos="fade">
 
           <div class="mb-4">
             <h4 class="bg-green fontFamily1 d-inline-block">01.</h4>
@@ -164,10 +164,6 @@
                 aprendiendo y mejorando mis habilidades para seguir ampliando mi conocimiento en el desarrollo de sitios web. 
               </p>
 
-              <p class="colorTexto">
-                También estoy abierto 
-                a cualquier propuesta que me permita demostrar mis habilidades y crecer como desarrollador.
-              </p>
           </div>
 
           <div class="col-md-6">
@@ -183,9 +179,9 @@
     
         </div>
 
-        
+
         <!--Conocimientos-->
-        <div class="row newContainer" id="skills" data-aos="fade">
+        <div class="row newContainer conocimientos" id="skills" data-aos="fade">
 
           <div class="mb-4">
             <h4 class="bg-green fontFamily1 d-inline-block">02.</h4>
@@ -193,8 +189,7 @@
             <hr class="hr1 d-inline-block m-0 mb-2 mx-3">
           </div>
 
-          
-          <div class="row">
+        
 
             <div class="col md-4 skillContainer m-2 p-4 rounded">
 
@@ -222,14 +217,14 @@
               <p class="colorTexto m-0"> <span class="bg-green">•</span> Git & Github</p>
             </div>
 
-          </div>
+          
 
     
         </div>
 
 
         <!--Formacion-->
-        <div class="newContainer2" id="training" data-aos="fade">
+        <div class="newContainer2 overflow-hidden" id="training" data-aos="fade" style="padding-top: 16vh;">
 
           <div class="mb-4">
             <h4 class="bg-green fontFamily1 d-inline-block">03.</h4>
@@ -336,7 +331,7 @@
         
 
         <!--Contacto-->
-        <div class="newContainer2 text-center" id="contact" data-aos="fade-up">
+        <div class="newContainer2 text-center contactContainer" id="contact" data-aos="fade-up">
 
           <a href="mailto:martinsebastian1314@hotmail.com" target="_blank"><span class="material-symbols-outlined bg-green">email</span></a>
           <h2 class="fontColor1 fontFamily2">Ponerse en contacto</h2>
@@ -359,10 +354,28 @@
 
 
 
-    
+
+    <!--Footer-->
+    <div class="newContainer2 text-center footer mt-5">
+      
+      <p class="fontColor1 fontFamily1 mb-0 d-inline-block px-1">Martin Nuñez </p>
+      <p class="colorTexto fontFamily1 mb-0 d-inline-block px-1">Portfolio</p>
+      
+      <div>
+        <a class="navElement fontColor1 px-1" style="text-decoration: none;" href="https://github.com/msn1314" target="_blank">Github</a>
+        <a class="navElement fontColor1 px-1" style="text-decoration: none;" href="https://www.linkedin.com/in/msn1314/" target="_blank">Linkedin</a>
+        <a class="navElement fontColor1 px-1" style="text-decoration: none;" href="./documents/CV.pdf" target="_blank">CV</a>
+      </div>
+
+      <div>
+        <span class="material-symbols-outlined fontColor1" style="font-size: 9px;">circle</span>
+        <p class="colorTexto fontFamily1 d-inline-block">2023</p>
+        <span class="material-symbols-outlined fontColor1" style="font-size: 9px;">circle</span>
+      </div>
 
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
 
 
     <!--Bootstrap-->

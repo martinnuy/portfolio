@@ -25,6 +25,12 @@ function hide(){
 }
 
 
+/* Cierra el "menu hamburguesa" luego de clickear uno de sus enlaces */
+$('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+
 /* Se encarga de llamar a la funcion fadeOut() luego de 2 segundos de haber cargado la pagina */
 setTimeout( function(){
     fadeOut();
