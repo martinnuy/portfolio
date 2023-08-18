@@ -25,6 +25,22 @@ function hide(){
 }
 
 
+
+//Hace scroll hasta el div con la id "sectionId" sin que se cambie la url del proyecto.
+function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }
+
+
+
+
+
 /* Cierra el "menu hamburguesa" luego de clickear uno de sus enlaces */
 $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
