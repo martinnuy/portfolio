@@ -50,4 +50,4 @@ $('.js-scroll-trigger').click(function() {
 /* Se encarga de llamar a la funcion fadeOut() luego de 2 segundos de haber cargado la pagina */
 setTimeout( function(){
     fadeOut();
-}, 28 )
+}, 2800 )
