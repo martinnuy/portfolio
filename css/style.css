@@ -160,7 +160,42 @@ body{
     
 }
 
+.imgProjects{
+  border: 2px solid #8892b06b;
+  border-radius: 2%;
+  transition: border .5s;
+}
 
+.projectTitle{
+  transition: color .5s;
+  }
+
+.techDiv{
+
+  color: #64ffda;
+  text-align: center;
+  background-color: #64ffdb1e;
+  border-radius: 9999px;
+
+}
+
+.projectsDiv:hover{
+  
+  
+  .imgProjects{
+  border: 2px solid #b7c5ee6b;
+  }
+
+  .projectTitle{
+  color: #64ffda;
+  transition: color .5s;
+  }
+  
+}
+
+.projectsLink{
+  text-decoration: none;
+}
 
 
 body::-webkit-scrollbar {
@@ -426,7 +461,9 @@ body::-webkit-scrollbar {
     padding-top: 30vh;
 }
 
-
+.projectsContainer{
+  padding-top: 13vh;
+}
 
 
 /* Media query para pantallas más pequeñas, como dispositivos móviles */
